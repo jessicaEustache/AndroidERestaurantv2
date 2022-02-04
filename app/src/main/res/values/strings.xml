@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidERestaurant</string>
+    <string name="todo">TODO</string>
+    <string name="commencer">Commencer</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="aux_milles_p_tes">Aux milles pâtes</string>
+    <string name="bon_app_tit">Bon appétit</string>
+    <string name="tous_les_plats_d_licieux_sur_notre_application">Tous les plats délicieux sur notre application</string>
+    <string name="notre_carte">Notre carte :</string>
+    <string name="entr_es">Entrées</string>
+    <string name="plats">Plats</string>
+    <string name="desserts">Desserts</string>
+    <string name="textview">TextView</string>
+    <string name="item">Item</string>
+    <string name="text">text</string>
+    <string name="text2">text2</string>
+    <string name="next">next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
