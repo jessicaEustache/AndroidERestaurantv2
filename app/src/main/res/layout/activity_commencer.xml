@@ -85,7 +85,21 @@
         app:layout_constraintVertical_bias="0.512"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
-
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ButtonPanier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="80dp"
+        android:clickable="true"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CommencerDesserts"
+        app:maxImageSize="70dp"
+        app:srcCompat="@drawable/panier"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

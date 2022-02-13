@@ -1,5 +1,6 @@
 package fr.isen.eustache.androiderestaurant
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +8,7 @@ import fr.isen.eustache.androiderestaurant.databinding.ActivityCommencerBinding
 
 class CommencerActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCommencerBinding
+    @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -26,6 +28,7 @@ class CommencerActivity : AppCompatActivity() {
             changeActivity(getString(R.string.desserts))
         }
 
+
     }
 
     private fun changeActivity(category: String){
@@ -33,4 +36,5 @@ class CommencerActivity : AppCompatActivity() {
         intent.putExtra("category_type",category)
         startActivity(intent)
     }
+
 }
